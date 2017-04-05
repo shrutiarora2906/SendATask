@@ -25,5 +25,6 @@
     "url": "https://github.com/shrutiarora2906/SendATask/issues"
   },
   "homepage": "https://github.com/shrutiarora2906/SendATask#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {}
 }

@@ -1,8 +1,14 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:  #b3ecff;
+}
+h1 {
+	color: #00b377;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-align: center;
 }
 
-a {
-  color: #00B7FF;
+
+form {
+	text-align: center;
+
 }

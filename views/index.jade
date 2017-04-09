@@ -1,28 +1,12 @@
 extends layout
 
 block content
-  link(href='/public/stylesheets/style.css', rel='stylesheet')
-  .main.container
+  .welcome_page
     .row
       .col-md-6.col-md-offset-3
-        h1.display-4.m-b-2 Welcome to SendATask!
+        h1.display-4.m-b-2 Welcome to Send A Task!
 
         // register form
-        form(method='POST')
-          div.form-group
-            label(for='name') Name:
-            input#name.form-control(type='text', placeholder='first and last' name='name')
-          div.form-group
-            label(for='email') Email:
-            input#email.form-control(type='email', placeholder='name@email.com' name='email')
-          div.form-group
-            label(for='username') Username:
-            input#email.form-control(type='username', name='username')
-          div.form-group
-            label(for='pw') Password:
-            input#pw.form-control(type='password' name='password')
-          div.form-group
-            label(for='pw2') Confirm Password:
-            input#pw2.form-control(type='password' name='confirmPassword')
+        form(method='GET')
           button.btn.btn-primary(type='signup', formaction='/signup') Sign up
           button.btn.btn-secondary(type='login' , formaction='/login') Login
